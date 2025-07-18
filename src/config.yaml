@@ -1,0 +1,16 @@
+# Sentiment Analyzer Configuration
+analysis:
+  # Thresholds for sentiment classification
+  positive_threshold: 0.05
+  negative_threshold: -0.05
+  
+  # Whether to include compound score in output
+  include_compound: true
+  
+  # Whether to include individual scores (pos, neg, neu)
+  include_individual: false
+
+logging:
+  level: "info"  # debug, info, warn, error
+  file: "sentiment.log"  # Leave empty for console only
+  
